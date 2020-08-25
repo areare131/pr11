@@ -1,0 +1,76 @@
+.main {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 1219px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    background-color: #007765;
+    width: 1219px;
+    height: 84px;
+    margin-top: -10px;
+}
+
+.logo {
+    float: left;
+    width: 148px;
+    height: 45px;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.navigation {
+    float: right;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-right: 55px;
+    padding-top: 29px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.jumbotron {
+    height: 403px;
+    background-image: url(img/image1.png);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 94px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.the-problem {
+    width: 1110px;
+    height: 488px;
+    margin-bottom: 92px;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
