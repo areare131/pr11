@@ -1,59 +1,86 @@
-.main {
+body, div, nav, a, h1, h2, img, figure, figcaption, header, footer {
+    margin: 0;
+}
+.container {
+    width: 1219px;
+    margin: auto;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #007765;
+    height: 84px;
+
+    /* opacity: 50%; */
+}
+.logo {
+    float: left;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+nav {
+    float: right;
+    padding-right: 55px;
+    padding-top: 29px;
+}
+nav > a {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
-}
-
-.container {
-    width: 1219px;
-    margin: 0 auto;
-}
-
-.header {
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-
-    width: 100%;
-    height: 84px;
-
-    background-color: #007765;
-}
-
-.logo {
-    float: left;
-
-    padding-top: 20px;
-    padding-right: 55px;
-    padding-left: 55px;
-}
-
-.navigation {
-    float: right;
-
-    padding-top: 29px;
-    padding-right: 55px;
-    padding-left: 55px;
-}
-
-nav > a {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     text-decoration: none;
-
     color: #FFFFFF;
 }
-
 .jumbotron {
-    width: 101.2%;
-    height: 403px;
-
+    background-color: #007765;
     background-image: url(img/image1.png);
+    background-position: center;
     background-size: cover;
-    background-position: center center;
-
+    height: 403px;
     margin-top: 84px;
-    margin-left: -10px;
+
+    /* opacity: 50%; */
+}
+h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.the-problem {
+    background-color: #EEEEEE;
+    height: 720px;
+}
+h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 84px;
+    margin-bottom: 16px;
+}
+.the-problem p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 16px;
+    margin-bottom: 37px;
 }
