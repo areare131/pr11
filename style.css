@@ -12,6 +12,7 @@ header {
     right: 0;
     background-color: #007765;
     height: 84px;
+    width: 100vw;
 
     /* opacity: 50%; */
 }
@@ -42,6 +43,7 @@ nav > a {
     background-size: cover;
     height: 403px;
     margin-top: 84px;
+    width: 100vw;
 
     /* opacity: 50%; */
 }
